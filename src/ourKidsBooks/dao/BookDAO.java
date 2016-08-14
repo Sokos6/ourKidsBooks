@@ -5,7 +5,7 @@ import java.util.List;
 import ourKidsBooks.model.Book;
 import ourKidsBooks.model.Category;
 
-public interface BoodDAO {
+public interface BookDAO {
 	public List<Book>findAllBooks();
 	
 	public List<Book>searchBooksByKeyword(String keyWord);
